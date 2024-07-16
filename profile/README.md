@@ -6,7 +6,7 @@
 <!--프로젝트 대문 이미지-->
 
 <!--프로젝트 버튼-->
- [![Readme in English][readme-eng-shield]][readme-eng-url] [![View Demo][view-demo-shield]][view-demo-url] [![Report bug][report-bug-shield]][report-bug-url] [![Request feature][request-feature-shield]][request-feature-url]
+<!-- [![Readme in English][readme-eng-shield]][readme-eng-url] [![View Demo][view-demo-shield]][view-demo-url] [![Report bug][report-bug-shield]][report-bug-url] [![Request feature][request-feature-shield]][request-feature-url] -->
 
 <!--목차-->
 # Table of Contents
@@ -26,21 +26,24 @@
 
 
 # [1] About the Project
-*다음 내용을 고려하여 프로젝트에 대한 **전반적인 정보**를 적으세요.*
 
-- ❗️짧은❗️ 도입부/제작 동기
-- 무슨 프로젝트인지
-- 왜 이 프로젝트를 사용해야하는지
+이 프로젝트는 신청 및 추첨 과정을 자동화하여 사용자가 쉽게 신청하고 결과를 확인할 수 있는 종합적인 웹 솔루션을 제공합니다. 투명한 프로세스와 사용자 친화적 인터페이스를 통해 효율적이고 공정한 신청 및 추첨 환경을 조성합니다.
+복잡하고 불편한 신청 및 추첨 과정을 개선하고자 본 프로젝트를 시작하게 되었습니다. 사용자의 편의성을 높이고 관리자 업무의 효율성을 극대화하기 위해 자동화된 시스템을 제공합니다.
 
 ## Features
 *강조하고 싶은 **주요 기능**이나 **차별성 있는 특징**을 적으세요.*
-- 최고 멋진 **README**를 쉽게 작성할 수 있도록 *이텔릭체*로 된 **가이드**를 제공
-- 뱃지로 **언어 옵션**을 제공
+- **사용자 친화적** 웹 인터페이스 제공: 직관적이고 사용하기 쉬운 웹 인터페이스로 누구나 쉽게 접근하고 이용할 수 있습니다.
+- 쉽고 간편한 신청 및 내역 조회: 간편한 신청 절차와 더불어 신청 내역을 손쉽게 조회할 수 있어 **사용자 편의성을 극대화**합니다.
+- 프로세스 투명성: 신청부터 추첨까지의 모든 과정을 **자동화**하여 **투명성**을 확보하고 신뢰할 수 있는 시스템을 제공합니다.
+- 실시간 경쟁률 및 추첨 결과 조회: **실시간으로 경쟁률을 확인**하고 추첨 결과를 조회할 수 있어 사용자에게 투명한 정보를 제공합니다.
+- 자유로운 가중치 선택을 통한 폼 등록: **다양한 가중치 선택 옵션**을 제공하여 사용자 맞춤형 신청이 가능합니다.
+- 추첨 관리 기능: 신청자 리스트, 신청 현황, 결과 조회 등을 통해 효율적으로 추첨을 관리할 수 있습니다.
+- 서류 승인 전산화: 모든 서류 승인 과정을 전산화하여 관리자의 업무 효율성을 높입니다.
+- 관리자 업무 효율성: 자동화된 시스템을 통해 관리자의 업무를 줄이고, 더 중요한 업무에 집중할 수 있도록 도와줍니다.
 
 ## Technologies
-***언어, 프레임워크, 주요 라이브러리**를 **버전**과 함께 나열하세요.*
 
-- [Maven](https://gradle.org/) X.X.X
+- [Gradle](https://gradle.org/) X.X.X
 - [MySQL](https://www.mysql.com/) X.X
 - [Spring](https://spring.io/) X.X.X
 
