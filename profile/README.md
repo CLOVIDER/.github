@@ -5,17 +5,17 @@
 # 🍀 TEAM CLOVIDER
 <!--팀 로고 이미지-->
 <p align="center">
- <img src="https://github.com/user-attachments/assets/8f13196a-f069-4145-aed0-dbd0db0a0f15"/>
+ <img width="200" height="200" src="https://github.com/user-attachments/assets/8f13196a-f069-4145-aed0-dbd0db0a0f15"/>
 </p>
 
 # 🙌 팀원 소개
 
 <p align="center">
-<img width="730" alt="image" src="https://github.com/user-attachments/assets/080853a5-5ea7-4e4e-877b-c846374749f0">
-<img width="869" alt="image" src="https://github.com/user-attachments/assets/273ed4a0-8c7a-40da-9d70-f55833e2e7e2">
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/080853a5-5ea7-4e4e-877b-c846374749f0">
+<img width="520" alt="image" src="https://github.com/user-attachments/assets/273ed4a0-8c7a-40da-9d70-f55833e2e7e2">
 </p>
 
-> PM : Kylo
+> PM : **Kylo**
 > 
 > FE : **Alpha**, Mangobean, Claire
 > 
@@ -26,7 +26,7 @@
 # 🐰 프로젝트 소개 : Kids In Company
 <!--프로젝트 대문 이미지-->
 <p align="center">
- <img src="https://github.com/user-attachments/assets/2223d050-aadc-4f98-9a6e-d43ce1af39e4"/>
+ <img width="200" height="200" src="https://github.com/user-attachments/assets/2223d050-aadc-4f98-9a6e-d43ce1af39e4"/>
 </p>
 
 ## 배경
