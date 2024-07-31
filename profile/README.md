@@ -181,8 +181,8 @@
 >
 > ### BE : **Louis**, Jeri, David, Chris, Tom
 
-## 프로젝트 주소
+## 프로젝트 링크
 
-> ### FE : [FE Project](https://github.com/CLOVIDER/FE) </br>
+> ### [FE Project](https://github.com/CLOVIDER/FE) </br>
 >
-> ### BE : [BE Project](https://github.com/CLOVIDER/BE)
+> ### [BE Project](https://github.com/CLOVIDER/BE)
