@@ -175,11 +175,17 @@
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/273ed4a0-8c7a-40da-9d70-f55833e2e7e2">
 </p>
 
-> ### PM : **Kylo**
->
-> ### FE : **Alpha**, Mangobean, Claire
->
-> ### BE : **Louis**, Jeri, David, Chris, Tom
+|No|이름|역할|깃허브|
+|------|---|---|---|
+|1|김현겸|PM, BE|[kylo-dev](https://github.com/kylo-dev)|
+|2|공예영|PL, FE|[yeyounging](https://github.com/yeyounging)|
+|3|김성민|FE|[Collection50](https://github.com/Collection50)|
+|4|서용준|FE|[mango0422](https://github.com/mango0422)|
+|5|권민우|PL, BE|[MINUUUUUUUUUUUU](https://github.com/MINUUUUUUUUUUUU)|
+|6|정준희|BE|[sungsil0624](https://github.com/sungsil0624)|
+|7|정희찬|BE, Infra|[anselmo228](https://github.com/anselmo228)|
+|8|이주애|BE, Infra|[leejuae](https://github.com/leejuae)|
+|9|김관일|BE|[KIM-KWAN-IL](https://github.com/KIM-KWAN-IL)|
 
 ## 프로젝트 링크
 
