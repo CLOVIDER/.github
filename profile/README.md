@@ -85,6 +85,8 @@
 <img width="568" alt="image" src="https://github.com/user-attachments/assets/2a5ccd94-235c-4d41-9dd3-6b6e26fbc218">
 
 #### 2. Java 애플리케이션 - JRE 이미지 빌드를 통한 보안성 강화 및 이미지 2.5배 경량화
+<img width="568" alt="image" src="https://github.com/user-attachments/assets/3c4ff618-4463-451f-bba4-66adcc309d2e">
+
 > [PR #120](https://github.com/CLOVIDER/kic-backend/pull/120)
 
 #### 3. Github Self-hosted Runner를 통한 Private Workflow 이용 제한 해결
