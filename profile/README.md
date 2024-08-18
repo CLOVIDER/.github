@@ -74,6 +74,83 @@
 
 ### 🌕 Frontend
 
+#### 1. 지연로딩
+
+- 번들 사이즈가 큰 Editor에 지연로딩을 적용해 브라우저에 전달되는 JS 크기를 최적화 했습니다.
+- `unpacked size` `3.5MB -> 0MB`로 감소할 수 있었습니다.
+
+```tsx
+import dynamic from 'next/dynamic'
+const BlockNoteEditor = dynamic(() => import('./BlockNoteEditor'), {
+  ssr: false,
+  loading: () => <LoadingSpinner />,
+})
+```
+
+#### 2. 리렌더링 최적화
+
+- `useCallback`, `useMemo`를 적극적으로 활용하여 불필요한 리렌더링을 방지했습니다.
+- 성능이 좋지 않은 모바일 환경에서도 쾌적한 UX를 제공할 수 있는 환경을 구축했습니다.
+
+```tsx
+export default function useCreateQuery() {
+  const searchParams = useSearchParams()
+
+  const createQueryString = useCallback(
+    (name: string, value: string) => {
+      const params = new URLSearchParams(searchParams.toString())
+      params.set(name, value)
+
+      return params.toString()
+    },
+    [searchParams],
+  )
+  return createQueryString
+}
+```
+
+#### 3. 트리셰이킹
+
+- `package.json`에서 아래와 같이 적용하여 트리셰이킹을 적용했습니다.
+- 불필요하게 다운로드되는 패키지를 삭제해, 브라우저에 전달되는 번들 사이즈를 25% 감소했습니다.
+
+```json
+  "sideEffects": false
+```
+
+#### 4. 폰트최적화
+
+- NextJs를 활용한 최적화를 수행하여, JS 다운로드로 인한 UI blocking 현상을 최소화했습니다.
+- `display: swap` 설정을 통해 유저는 폰트가 다운로드되는 동안 빈화면을 보고있지 않아도 됩니다.
+- 웹 성능지표 중 FCP, TTI를 개선했습니다.
+
+```ts
+const Pretendard = localFont({
+  src: './fonts/PretendardVariable.woff2',
+  display: 'swap',
+  weight: '45 920',
+})
+```
+
+#### 5. 애니메이션 최적화
+
+- `framer-motion`은 `transform` 기반의 애니메이션으로 reflow, repaint를 최소화합니다.
+- GPU 가속을 사용하므로, 웹 성능을 저해하지 않고 고사양의 애니메이션을 사용했습니다.
+
+```tsx
+<motion.div
+        initial={{ y: 0 }}
+        animate={{ y: [0, -20, 0] }}
+        transition={{
+          duration: 2,
+          ease: 'easeInOut',
+          repeat: Infinity,
+          repeatType: 'loop',
+        }}
+      >
+```
+
+
 ### 🌑 Backend
 
 #### 1. 컴포넌트 단위 API 개발을 통한 페이지 약 2.3배 최적화
