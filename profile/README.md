@@ -66,7 +66,8 @@
 #### 1. 컴포넌트 단위 API 개발을 통한 페이지 약 2.3배 최적화
 > [PR #77](https://github.com/CLOVIDER/kic-backend/pull/77)
 
-#### 2. Scheduler를 통한 S3 저장소 최적화
+#### 2. Scheduler를 통한 서비스 이미지 처리 간 S3 호출 의존성 제거
+> [PR #59](https://github.com/CLOVIDER/kic-backend/pull/59)
 
 #### 3. Redis 캐싱을 통한 현재 진행 중인 모집 정보, 사용자 정보 조회 속도 개선 및 최적화
 > [#186](https://github.com/CLOVIDER/kic-backend/issues/186)
@@ -74,7 +75,8 @@
 #### 4. 비동기 통신을 활용한 관리자 모집 결과 이메일 전송(SMTP) 기능 사용자 경험 개선
 > [PR #49](https://github.com/CLOVIDER/kic-backend/pull/49)
 
-#### 5. Redis 활용하여 조회 수 중복 방지 및 쿠키 변경/접근 이슈 문제 해결
+#### 5. 점진적인 공지사항 조회수 중복 처리 방지 로직 개선 (쿠키 -> redis)
+> [PR #59](https://github.com/CLOVIDER/kic-backend/pull/59)
 > [PR #141](https://github.com/CLOVIDER/kic-backend/pull/141)
 
 ### 🌗 Infra
