@@ -63,6 +63,31 @@
 
 ### 🌑 Backend
 
+#### 1. 컴포넌트 단위 API 개발을 통한 페이지 약 2.3배 최적화
+> [PR #77](https://github.com/CLOVIDER/kic-backend/pull/77)
+
+#### 2. Scheduler를 통한 S3 저장소 최적화
+
+#### 3. Redis 캐싱을 통한 현재 진행 중인 모집 정보, 사용자 정보 조회 속도 개선 및 최적화
+> [#186](https://github.com/CLOVIDER/kic-backend/issues/186)
+
+#### 4. 비동기 통신을 활용한 관리자 모집 결과 이메일 전송(SMTP) 기능 사용자 경험 개선
+> [PR #49](https://github.com/CLOVIDER/kic-backend/pull/49)
+
+#### 5. Redis 활용하여 조회 수 중복 방지 및 쿠키 변경/접근 이슈 문제 해결
+> [PR #141](https://github.com/CLOVIDER/kic-backend/pull/141)
+
+### 🌗 Infra
+
+#### 1. Java 애플리케이션 - Gradle JIB 빌드를 통한 빌드 시간 77% 단축
+<img width="568" alt="image" src="https://github.com/user-attachments/assets/2a5ccd94-235c-4d41-9dd3-6b6e26fbc218">
+
+#### 2. Java 애플리케이션 - JRE 이미지 빌드를 통한 보안성 강화 및 이미지 2.5배 경량화
+> [PR #120](https://github.com/CLOVIDER/kic-backend/pull/120)
+
+#### 3. Github Self-hosted Runner를 통한 Private Workflow 이용 제한 해결
+<img width="548" alt="image" src="https://github.com/user-attachments/assets/bba3bd28-10b1-4ea0-9f1f-db96f41c3ddf">
+
 
 ## 화면 구성
 
