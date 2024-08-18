@@ -4,22 +4,24 @@
 
 <img width="650" src="https://github.com/user-attachments/assets/39fd046f-86a1-489b-95be-17ea968277b6"/>
 
-> WEB URL:
->
+> ### WEB URL: [키즈인컴퍼니 사이트](http://kidsincompany.shop/)
+> ### [FE Project](https://github.com/CLOVIDER/FE) </br>
+> ### [BE Project](https://github.com/CLOVIDER/BE)
+> 
 > 작성자: 김현겸
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCLOVIDER&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
 
 # ☘️ 프로젝트 소개
-## 서비스 기획 이유
+## 1️⃣ 서비스 기획 이유
 
 > 사내 어린이집은 직원들에게 중요한 복지 시설입니다. 하지만 수요가 많아 모든 직원의 자녀가 어린이집을 이용할 수 없는 경우가 발생합니다.
 >
 > 이는 직원들 사이에서 불만을 일으키고, 공정성과 투명성에 대한 문제를 제기하게 만듭니다.
 
-### ✅ 그래서 저희 Clovider팀은 **공정한 가중치 적용**, **가중치를 바탕으로 한 당첨 확률 제공** 을 통해 공정하고 투명한 서비스를 만들고자 합니다.
+#### ✅ 그래서 저희 Clovider팀은 **공정한 가중치 적용하고** 이를 바탕으로 **당첨 확률 제공하여** 공정하고 투명한 서비스를 만들고자 합니다.
 
-## 서비스 차별점
+## 2️⃣ 서비스 차별점
 
 > 1. **공정성 확보**: 근속년수, 사내 부부, 다자녀 가정 등 여러 타당한 가중치를 통해 추첨을 진행합니다.
 >
@@ -27,76 +29,18 @@
 >
 > 3. **효율성 향상**: 수작업으로 진행되는 추첨 과정은 시간이 많이 소요되고 오류가 발생할 가능성이 높습니다. 이를 자동화하여 효율성을 높입니다.
 
-# ⚙️ 기술 스택
+## 3️⃣ 서비스 소개
 
-<table>
-    <thead>
-        <tr>
-            <th>분류</th>
-            <th>기술 스택</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                  <p>프론트엔드</p>
-            </td>
-            <td>
-                  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=Next.js&logoColor=white"/>
-                  <img src="https://img.shields.io/badge/Typescript-1572B6?style=flat&logo=typescript&logoColor=white"/>
-                  <img src="https://img.shields.io/badge/Tailwindcss-1252B6?style=flat&logo=tailwindcss&logoColor=white"/>
-                  <img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white"/>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>백엔드</p>
-            </td>
-            <td>
-              <img src="https://img.shields.io/badge/Spring_Boot-%236DB33F?logo=springboot&logoColor=white">
-              <img src="https://img.shields.io/badge/Spring_JPA-%236DB33F?logo=spring&logoColor=white">
-              <img src="https://img.shields.io/badge/Spring_Security-%236DB33F?logo=springsecurity&logoColor=white">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>테스트</p>
-            </td>
-            <td>
-              <img src="https://img.shields.io/badge/Jmeter-D22128?logo=Apache Jmeter&logoColor=white">
-              <img src="https://img.shields.io/badge/JUnit5-25A162?logo=junit5&logoColor=white">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>데이터베이스</p>
-            </td>
-            <td>
-              <img src="https://img.shields.io/badge/Mysql-4479A1?logo=mysql&logoColor=white">
-              <img src="https://img.shields.io/badge/Redis-FF4438?logo=Redis&logoColor=white">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>인프라</p>
-            </td>
-            <td>
-              <img src="https://img.shields.io/badge/Docker-2496ED?&logo=Docker&logoColor=white">
-              <img src="https://img.shields.io/badge/Github Actions-2088FF?&logo=Github Actions&logoColor=white">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>협업</p>
-            </td>
-            <td>
-                <img src="https://img.shields.io/badge/Notion-000000?logo=Notion">
-                <img src="https://img.shields.io/badge/Jira-0052CC?logo=Jira&logoColor=white">
-                <img src="https://img.shields.io/badge/Figma-F24E1E?logo=Figma&logoColor=white">
-            </td>
-        </tr>
-    </tbody>
-</table>
+디케이테크인 내부의 공정하고 투명한 사내 어린이집 인원 배정을 위해 어린이집 모집과 추첨을 자동화한 서비스입니다.
+
+# 핵심 기능
+
+# ERD
+
+# 시스템 아키텍처
+
+# 최적화한 사항
+
 
 # 화면 구성
 
@@ -187,8 +131,73 @@
 |8|이주애|BE, Infra|[leejuae](https://github.com/leejuae)|
 |9|김관일|BE|[KIM-KWAN-IL](https://github.com/KIM-KWAN-IL)|
 
-## 프로젝트 링크
+# ⚙️ 기술 스택
 
-> ### [FE Project](https://github.com/CLOVIDER/FE) </br>
->
-> ### [BE Project](https://github.com/CLOVIDER/BE)
+<table>
+    <thead>
+        <tr>
+            <th>분류</th>
+            <th>기술 스택</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                  <p>프론트엔드</p>
+            </td>
+            <td>
+                  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=Next.js&logoColor=white"/>
+                  <img src="https://img.shields.io/badge/Typescript-1572B6?style=flat&logo=typescript&logoColor=white"/>
+                  <img src="https://img.shields.io/badge/Tailwindcss-1252B6?style=flat&logo=tailwindcss&logoColor=white"/>
+                  <img src="https://img.shields.io/badge/Redux-764ABC?style=flat&logo=redux&logoColor=white"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>백엔드</p>
+            </td>
+            <td>
+              <img src="https://img.shields.io/badge/Spring_Boot-%236DB33F?logo=springboot&logoColor=white">
+              <img src="https://img.shields.io/badge/Spring_JPA-%236DB33F?logo=spring&logoColor=white">
+              <img src="https://img.shields.io/badge/Spring_Security-%236DB33F?logo=springsecurity&logoColor=white">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>테스트</p>
+            </td>
+            <td>
+              <img src="https://img.shields.io/badge/Jmeter-D22128?logo=Apache Jmeter&logoColor=white">
+              <img src="https://img.shields.io/badge/JUnit5-25A162?logo=junit5&logoColor=white">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>데이터베이스</p>
+            </td>
+            <td>
+              <img src="https://img.shields.io/badge/Mysql-4479A1?logo=mysql&logoColor=white">
+              <img src="https://img.shields.io/badge/Redis-FF4438?logo=Redis&logoColor=white">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>인프라</p>
+            </td>
+            <td>
+              <img src="https://img.shields.io/badge/Docker-2496ED?&logo=Docker&logoColor=white">
+              <img src="https://img.shields.io/badge/Github Actions-2088FF?&logo=Github Actions&logoColor=white">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>협업</p>
+            </td>
+            <td>
+                <img src="https://img.shields.io/badge/Notion-000000?logo=Notion">
+                <img src="https://img.shields.io/badge/Jira-0052CC?logo=Jira&logoColor=white">
+                <img src="https://img.shields.io/badge/Figma-F24E1E?logo=Figma&logoColor=white">
+            </td>
+        </tr>
+    </tbody>
+</table>
