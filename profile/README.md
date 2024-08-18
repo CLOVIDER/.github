@@ -25,7 +25,7 @@
 * [팀원 소개](#팀원-소개)
 * [기술 스택](#기술-스택)
 
-## ☘️ 프로젝트 소개
+## 🍀프로젝트 소개
 ### 1️⃣ 서비스 기획 이유
 
 > 사내 어린이집은 직원들에게 중요한 복지 시설입니다. 하지만 수요가 많아 모든 직원의 자녀가 어린이집을 이용할 수 없는 경우가 발생합니다.
@@ -46,7 +46,7 @@
 
 디케이테크인 내부의 공정하고 투명한 사내 어린이집 인원 배정을 위해 어린이집 모집과 추첨을 자동화한 서비스입니다.
 
-## 핵심 기능
+## 🍀핵심 기능
 
 ### ⭐ 사용자
 - 1개의 신청서로 여러 개의 사내 어린이집 추첨 통합 신청
@@ -62,16 +62,16 @@
 - 공지사항, 질의응답 관리
 - 사내 어린이집 정보 관리
 
-## ERD
+## 🍀ERD
 
 <img width="1100" alt="image" src="https://github.com/user-attachments/assets/7f5aadd5-654a-4449-82ee-167a29d43917">
 
-## 시스템 아키텍처
+## 🍀시스템 아키텍처
 
 ![image](https://github.com/user-attachments/assets/35de9337-e846-4131-87bf-7363e03d0a31)
 
 
-## 최적화한 사항
+## 🍀최적화한 사항
 
 ### 🌕 Frontend
 
@@ -186,11 +186,11 @@ const Pretendard = localFont({
 <img width="548" alt="image" src="https://github.com/user-attachments/assets/bba3bd28-10b1-4ea0-9f1f-db96f41c3ddf">
 
 
-## 화면 구성
+## 🍀화면 구성
 
 <!-- TODO: 화면 구성도 추가-->
 
-## 개발 기간
+## 🍀개발 기간
 ### 프로젝트 진행기간 : 24.07.01 ~ 08.23
 
 <table>
@@ -257,13 +257,13 @@ const Pretendard = localFont({
 
 
 
-## 🍀 팀 & 서비스 소개
+## 🍀팀 & 서비스 소개
 
 |Team: Clovider|Service: KIC|
 |------|------|
 |<img width="170" height="170" src="https://github.com/user-attachments/assets/8f13196a-f069-4145-aed0-dbd0db0a0f15"/>|<img width="170" height="170" src="https://github.com/user-attachments/assets/2223d050-aadc-4f98-9a6e-d43ce1af39e4"/>|
 
-## 🙌 팀원 소개
+## 🍀팀원 소개
 
 ### BE
 | No.1 | No.2 | No.3 |
@@ -288,7 +288,7 @@ const Pretendard = localFont({
 | FE | PL, FE | FE |
 | [Collection50](https://github.com/Collection50) | [yeyounging](https://github.com/yeyounging) | [mango0422](https://github.com/mango0422) |
 
-## ⚙️ 기술 스택
+## 🍀기술 스택
 
 <img width="410" alt="image" src="https://github.com/user-attachments/assets/3c9a3630-12e4-4ea5-8720-e1e2ba7847d8">
 
