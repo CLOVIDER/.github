@@ -172,22 +172,28 @@
 
 ## 🙌 팀원 소개
 
-<p align="center">
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/080853a5-5ea7-4e4e-877b-c846374749f0">
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/273ed4a0-8c7a-40da-9d70-f55833e2e7e2">
-</p>
+### BE
+| No.1 | No.2 | No.3 |
+| :-: | :-: | :-: |
+| <img src="https://avatars.githubusercontent.com/u/103489352?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/117968404?v=4" height="150"/> | <img src="https://avatars.githubusercontent.com/u/113875098?v=4" width="150" height="150"/> |
+| **김현겸** | **권민우** | **정준희** |
+| PM, BE | PL, BE | BE |
+| [kylo-dev](https://github.com/kylo-dev) | [MINUUUUUUUUUUUU](https://github.com/MINUUUUUUUUUUUU) | [sungsil0624](https://github.com/sungsil0624) |
 
-|No|이름|역할|깃허브|
-|------|---|---|---|
-|1|김현겸|PM, BE|[kylo-dev](https://github.com/kylo-dev)|
-|2|공예영|PL, FE|[yeyounging](https://github.com/yeyounging)|
-|3|김성민|FE|[Collection50](https://github.com/Collection50)|
-|4|서용준|FE|[mango0422](https://github.com/mango0422)|
-|5|권민우|PL, BE|[MINUUUUUUUUUUUU](https://github.com/MINUUUUUUUUUUUU)|
-|6|정준희|BE|[sungsil0624](https://github.com/sungsil0624)|
-|7|정희찬|BE, Infra|[anselmo228](https://github.com/anselmo228)|
-|8|이주애|BE, Infra|[leejuae](https://github.com/leejuae)|
-|9|김관일|BE|[KIM-KWAN-IL](https://github.com/KIM-KWAN-IL)|
+| No.4 | No.5 | No.6 |
+| :-: | :-: | :-: |
+| <img src="https://avatars.githubusercontent.com/u/24919880?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/51390115?v=4" height="150"/> | <img src="https://avatars.githubusercontent.com/u/118953934?v=4" width="150" height="150"/> |
+| **정희찬** | **이주애** | **김관일** |
+| BE, Infra | BE, Infra | BE |
+| [anselmo228](https://github.com/anselmo228)|[leejuae](https://github.com/leejuae) | [KIM-KWAN-IL](https://github.com/KIM-KWAN-IL) |
+
+### FE
+| No.1 | No.2 | No.3 |
+| :-: | :-: | :-: |
+| <img src="https://avatars.githubusercontent.com/u/86355699?v=4?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/133792082?v=4" height="150"/> | <img src="https://avatars.githubusercontent.com/u/83891638?v=4" width="150" height="150"/> |
+| **김성민** | **공예영** | **서용준** |
+| FE | PL, FE | FE |
+| [Collection50](https://github.com/Collection50) | [yeyounging](https://github.com/yeyounging) | [mango0422](https://github.com/mango0422) |
 
 ## ⚙️ 기술 스택
 
