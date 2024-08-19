@@ -110,16 +110,16 @@ pnpm run dev
 ### 3. [http://localhost:3000](http://localhost:3000/) 접속
 
 > 👥 **계정 정보**
-기존 사내데이터를 사용하는로직이므로 회원가입 기능이 없습니다. 
-아래 계정으로 테스트가 가능합니다.
-
-**USER**
-id : 
-pwd : 
-
-**ADMIN**
-id : admin9
-pwd : admnin12
+> 기존 사내데이터를 사용하는로직이므로 회원가입 기능이 없습니다. 
+> 아래 계정으로 테스트가 가능합니다.
+>
+>**USER**
+>id : 
+>pwd : 
+>
+> **ADMIN**
+>id : admin9
+>pwd : admnin12
 >
 
 ## 🍀ERD
