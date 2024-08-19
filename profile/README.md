@@ -1,4 +1,4 @@
-<img width="1454" alt="image" src="https://github.com/user-attachments/assets/fdd00ad3-68b5-417a-a9dc-a8beee62064e"># 📌 Kids In Company - 사내 어린이집 공정한 추첨 서비스
+# 📌 Kids In Company - 사내 어린이집 공정한 추첨 서비스
 
 <!-- 이미지 크기 수정-->
 
