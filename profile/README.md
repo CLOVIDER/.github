@@ -1,7 +1,5 @@
 # 📌 Kids In Company - 사내 어린이집 공정한 추첨 서비스
 
-<!-- 이미지 크기 수정-->
-
 <img width="650" src="https://github.com/user-attachments/assets/39fd046f-86a1-489b-95be-17ea968277b6"/>
 
 > ### WEB URL: [키즈인컴퍼니 사이트](http://kidsincompany.shop/)
@@ -15,99 +13,7 @@
 
 ### 📌실행 방법(로컬)
 
-<details>
-  <summary><b>Front 실행방법</b></summary>
-
-#### 1. `pnpm`을 설치합니다.
-
-```bash
-nvm use
-
-pnpm install
-
-pnpm dev
-```
-<br/>
-
-#### 2. `http://localhost:3000`에 접속합니다.
-
-- [접속하기](http://localhost:3000)
-
-    <details>
-      <summary><b>윈도우 버전 nvm 다운로드 방법</b></summary>
-      
-    ```bash
-    # nvm install
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-    
-    # 환경 변수 설정
-    ## 1
-    nano ~/.bashrc
-    
-    ## 2
-    export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-    
-    # bashrc 실행
-    source ~/.bashrc
-    
-    # nvm 실행
-    nvm install 21.7.1
-    
-    # .nvmrc 파일 생성
-    echo "21.7.1" > .nvmrc
-    
-    # pnpm install
-    nvm use
-    npm install -g pnpm
-    pnpm run dev
-    ```
-    </details>
-    
-    
-    
-    <details>
-      <summary><b>맥 버전 nvm 다운로드 방법</b></summary>
-      
-    ```bash
-    # 기본 설치방법(MAC)
-    brew install nvm
-    
-    # 환경변수 설정(bash쉘의 경우)
-    
-    # nvm 디렉토리 생성
-    mkdir ~/.nvm
-    
-    # ~/.bash_profile 설정
-    export NVM_DIR="$HOME/.nvm"
-    [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
-    [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"
-    
-    # 적용
-    source ~/.bash_profile
-    
-    # Node.js 버전 지정
-    nvm install 21.7.1
-    
-    # .nvmrc 파일 생성
-    echo "21.7.1" > .nvmrc  
-    ```
-    
-    </details>
-
-> 👥 **계정 정보**
-> 기존 사내데이터를 사용하는로직이므로 회원가입 기능이 없습니다. 
-> 아래 계정으로 테스트가 가능합니다.
->
->**USER**
->id : 
->pwd : 
->
-> **ADMIN**
->id : admin9
->pwd : admnin12
->
-</details>
+[FE & BE 로컬환경 실행 방법](https://github.com/CLOVIDER/.github/blob/main/profile/INSTALL.md)
 
 ## 목차
 
