@@ -94,23 +94,69 @@
 - 공지사항, 질의응답 관리
 - 사내 어린이집 정보 관리
 
-## 🍀실행 방법(로컬)
-### 1. FE 프로젝트를 clone 받은 후 종속성 설치
+# 🍀실행 방법(로컬)
 
-```jsx
+## 시작하기
+
+### 1. `pnpm`을 설치합니다.
+
+```bash
+nvm use
+
 pnpm install
+
+pnpm dev
 ```
 
-### 2. BE 프로젝트를 clone 받은 후, config 파일을 dev로 설정
+<br/>
 
-### 3. 로컬 환경에서 FE, BE 실행
+### 2. `http://localhost:3000`에 접속합니다.
 
-```jsx
-# 프론트
-pnpm run dev
+- [접속하기](http://localhost:3000)
+
+#### 만약 `npm`이 설치되지 않았다면 순서대로 따라해주세요.
+
+1. [Node.js 설치하기](https://nodejs.org/en)
+2. LTS 버전을 다운로드합니다.
+3. 설치 프로그램을 실행하고 안내에 따라 설치를 완료합니다.
+4. 아래 명령어를 통해 `pnpm`을 설치한뒤 위의 1번을 실행합니다.
+
+```bash
+npm install -g pnpm
+pnpm -v # 버전확인
 ```
 
-### 3. [http://localhost:3000](http://localhost:3000/) 접속
+#### 만약 nvm이 설치되지 않았거나 오류가 발생한다면
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+```
+
+<br/>
+
+1번 명령어를 입력한 뒤, 2번을 붙여 넣습니다.
+
+```bash
+# 1
+nano ~/.bashrc
+
+# 2
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
+
+<br/>
+
+```bash
+source ~/.bashrc
+```
+
+```bash
+nvm --version
+nvm install --lts
+nvm install 18.18.2
+```
 
 > 👥 **계정 정보**
 > 기존 사내데이터를 사용하는로직이므로 회원가입 기능이 없습니다. 
