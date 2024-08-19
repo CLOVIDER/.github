@@ -101,9 +101,12 @@
 pnpm install
 ```
 
-### 2. 로컬 환경에서 실행
+### 2. BE 프로젝트를 clone 받은 후, config 파일을 dev로 설정
+
+### 3. 로컬 환경에서 FE, BE 실행
 
 ```jsx
+# 프론트
 pnpm run dev
 ```
 
