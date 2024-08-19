@@ -77,6 +77,35 @@ nvm install --lts
 nvm install 18.18.2
 ```
 
+
+> mac 버전
+
+
+```bash
+# 기본 설치방법(MAC)
+brew install nvm
+
+# 환경변수 설정(bash쉘의 경우)
+
+# nvm 디렉토리 생성
+mkdir ~/.nvm
+
+# ~/.bash_profile 설정
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"
+
+# 적용
+source ~/.bash_profile
+
+# Node.js 버전 지정
+nvm install 21.7.1
+
+# .nvmrc 파일 생성
+echo "21.7.1" > .nvmrc  
+```
+
+
 > 👥 **계정 정보**
 > 기존 사내데이터를 사용하는로직이므로 회원가입 기능이 없습니다. 
 > 아래 계정으로 테스트가 가능합니다.
