@@ -12,6 +12,85 @@
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FCLOVIDER&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/>
 
+
+### 📌실행 방법(로컬)
+
+<details>
+  <summary><b>Front 실행방법</b></summary>
+
+#### 1. `pnpm`을 설치합니다.
+
+```bash
+nvm use
+
+pnpm install
+
+pnpm dev
+```
+<br/>
+
+#### 2. `http://localhost:3000`에 접속합니다.
+
+- [접속하기](http://localhost:3000)
+
+> 만약 `npm`이 설치되지 않았다면 순서대로 따라해주세요.
+
+1. [Node.js 설치하기](https://nodejs.org/en)
+2. LTS 버전을 다운로드합니다.
+3. 설치 프로그램을 실행하고 안내에 따라 설치를 완료합니다.
+4. 아래 명령어를 통해 `pnpm`을 설치한뒤 위의 1번을 실행합니다.
+
+```bash
+npm install -g pnpm
+pnpm -v # 버전확인
+```
+
+> 만약 nvm이 설치되지 않았거나 오류가 발생한다면
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+
+```
+
+<br/>
+
+1번 명령어를 입력한 뒤, 2번을 붙여 넣습니다.
+
+```bash
+# 1
+nano ~/.bashrc
+
+# 2
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
+
+<br/>
+
+```bash
+source ~/.bashrc
+```
+
+```bash
+nvm --version
+nvm install --lts
+nvm install 18.18.2
+```
+
+> 👥 **계정 정보**
+> 기존 사내데이터를 사용하는로직이므로 회원가입 기능이 없습니다. 
+> 아래 계정으로 테스트가 가능합니다.
+>
+>**USER**
+>id : 
+>pwd : 
+>
+> **ADMIN**
+>id : admin9
+>pwd : admnin12
+>
+</details>
+
 ## 목차
 
 * [프로젝트 소개](#프로젝트-소개)
@@ -93,83 +172,6 @@
 - Google SMTP를 통한 사용자 인증 및 추첨 결과 전송
 - 공지사항, 질의응답 관리
 - 사내 어린이집 정보 관리
-
-# 🍀실행 방법(로컬)
-
-## 시작하기
-
-### 1. `pnpm`을 설치합니다.
-
-```bash
-nvm use
-
-pnpm install
-
-pnpm dev
-```
-
-<br/>
-
-### 2. `http://localhost:3000`에 접속합니다.
-
-- [접속하기](http://localhost:3000)
-
-#### 만약 `npm`이 설치되지 않았다면 순서대로 따라해주세요.
-
-1. [Node.js 설치하기](https://nodejs.org/en)
-2. LTS 버전을 다운로드합니다.
-3. 설치 프로그램을 실행하고 안내에 따라 설치를 완료합니다.
-4. 아래 명령어를 통해 `pnpm`을 설치한뒤 위의 1번을 실행합니다.
-
-```bash
-npm install -g pnpm
-pnpm -v # 버전확인
-```
-
-#### 만약 nvm이 설치되지 않았거나 오류가 발생한다면
-
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-
-```
-
-<br/>
-
-1번 명령어를 입력한 뒤, 2번을 붙여 넣습니다.
-
-```bash
-# 1
-nano ~/.bashrc
-
-# 2
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-```
-
-<br/>
-
-```bash
-source ~/.bashrc
-```
-
-```bash
-nvm --version
-nvm install --lts
-nvm install 18.18.2
-```
-
-> 👥 **계정 정보**
-> 기존 사내데이터를 사용하는로직이므로 회원가입 기능이 없습니다. 
-> 아래 계정으로 테스트가 가능합니다.
->
->**USER**
->id : 
->pwd : 
->
-> **ADMIN**
->id : admin9
->pwd : admnin12
->
 
 ## 🍀ERD
 
@@ -270,7 +272,7 @@ const Pretendard = localFont({
   const deferredSearchInput = useDeferredValue(searchInput)
 ```
 
-<img width="1454" alt="image" src="https://github.com/user-attachments/assets/194ff600-9328-4a1b-b8c6-4aba755608a1">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/db3821f4-0649-40b3-bc5c-7fae2c23c5a4">
 
 
 ### 🌑 Backend
