@@ -1,4 +1,4 @@
-# 📌 Kids In Company - 사내 어린이집 공정한 추첨 서비스
+<img width="1454" alt="image" src="https://github.com/user-attachments/assets/fdd00ad3-68b5-417a-a9dc-a8beee62064e"># 📌 Kids In Company - 사내 어린이집 공정한 추첨 서비스
 
 <!-- 이미지 크기 수정-->
 
@@ -45,6 +45,33 @@
 ### 3️⃣ 서비스 소개
 
 디케이테크인 내부의 공정하고 투명한 사내 어린이집 인원 배정을 위해 어린이집 모집과 추첨을 자동화한 서비스입니다.
+
+<details>
+
+<summary>화면 소개</summary>
+
+#### 메인 페이지
+
+<img width="1468" alt="image" src="https://github.com/user-attachments/assets/7849ed7a-5510-4e88-8a22-64e228138465">
+
+#### 어린이집 신청 페이지
+
+<img width="1445" alt="image" src="https://github.com/user-attachments/assets/542f5d50-c66f-471c-bd1f-8c70f1fb345c">
+
+#### 공지사항 페이지
+
+<img width="1455" alt="image" src="https://github.com/user-attachments/assets/c556aa94-db8b-4a62-85a7-cddb46cf74c8">
+
+#### 어린이집 페이지
+
+<img width="1449" alt="image" src="https://github.com/user-attachments/assets/6ac34d2d-d3e3-4427-b456-1f5368c7eb65">
+
+#### 관리자 랜딩 페이지
+
+<img width="1445" alt="image" src="https://github.com/user-attachments/assets/9eae0997-088a-447a-82df-885411cf4bff">
+
+</details>
+
 
 ## 🍀핵심 기능
 
@@ -150,6 +177,19 @@ const Pretendard = localFont({
         }}
       >
 ```
+
+#### 6. 동시성 렌더링
+
+- `useDeferredValue`를 사용해 검색어를 입력하는 경우, UI 렌더링보다 검색어 입력이 우선적으로 처리되도록 했습니다.
+- `ms` 명시적으로 사용하지 않는 디바운스를 사용해 불필요한 리렌더링을 최적화했습니다.
+
+```ts
+  const [searchInput, setSearchInput] = useState<string>('')
+  const deferredSearchInput = useDeferredValue(searchInput)
+```
+
+<img width="1454" alt="image" src="https://github.com/user-attachments/assets/194ff600-9328-4a1b-b8c6-4aba755608a1">
+
 
 ### 🌑 Backend
 
@@ -285,7 +325,7 @@ const Pretendard = localFont({
 | :-: | :-: | :-: |
 | <img src="https://avatars.githubusercontent.com/u/86355699?v=4?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/133792082?v=4" height="150"/> | <img src="https://avatars.githubusercontent.com/u/83891638?v=4" width="150" height="150"/> |
 | **김성민** | **공예영** | **서용준** |
-| FE | PL, FE | FE |
+| PL, FE | FE | FE |
 | [Collection50](https://github.com/Collection50) | [yeyounging](https://github.com/yeyounging) | [mango0422](https://github.com/mango0422) |
 
 ## 🍀기술 스택
