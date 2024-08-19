@@ -33,78 +33,67 @@ pnpm dev
 
 - [접속하기](http://localhost:3000)
 
-> 만약 `npm`이 설치되지 않았다면 순서대로 따라해주세요.
-
-1. [Node.js 설치하기](https://nodejs.org/en)
-2. LTS 버전을 다운로드합니다.
-3. 설치 프로그램을 실행하고 안내에 따라 설치를 완료합니다.
-4. 아래 명령어를 통해 `pnpm`을 설치한뒤 위의 1번을 실행합니다.
-
-```bash
-npm install -g pnpm
-pnpm -v # 버전확인
-```
-
-> 만약 nvm이 설치되지 않았거나 오류가 발생한다면
-
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-
-```
-
-<br/>
-
-1번 명령어를 입력한 뒤, 2번을 붙여 넣습니다.
-
-```bash
-# 1
-nano ~/.bashrc
-
-# 2
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-```
-
-<br/>
-
-```bash
-source ~/.bashrc
-```
-
-```bash
-nvm --version
-nvm install --lts
-nvm install 18.18.2
-```
-
-
-> mac 버전
-
-
-```bash
-# 기본 설치방법(MAC)
-brew install nvm
-
-# 환경변수 설정(bash쉘의 경우)
-
-# nvm 디렉토리 생성
-mkdir ~/.nvm
-
-# ~/.bash_profile 설정
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
-[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"
-
-# 적용
-source ~/.bash_profile
-
-# Node.js 버전 지정
-nvm install 21.7.1
-
-# .nvmrc 파일 생성
-echo "21.7.1" > .nvmrc  
-```
-
+    <details>
+      <summary><b>윈도우 버전 nvm 다운로드 방법</b></summary>
+      
+    ```bash
+    # nvm install
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+    
+    # 환경 변수 설정
+    ## 1
+    nano ~/.bashrc
+    
+    ## 2
+    export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    
+    # bashrc 실행
+    source ~/.bashrc
+    
+    # nvm 실행
+    nvm install 21.7.1
+    
+    # .nvmrc 파일 생성
+    echo "21.7.1" > .nvmrc
+    
+    # pnpm install
+    nvm use
+    npm install -g pnpm
+    pnpm run dev
+    ```
+    </details>
+    
+    
+    
+    <details>
+      <summary><b>맥 버전 nvm 다운로드 방법</b></summary>
+      
+    ```bash
+    # 기본 설치방법(MAC)
+    brew install nvm
+    
+    # 환경변수 설정(bash쉘의 경우)
+    
+    # nvm 디렉토리 생성
+    mkdir ~/.nvm
+    
+    # ~/.bash_profile 설정
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"
+    [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"
+    
+    # 적용
+    source ~/.bash_profile
+    
+    # Node.js 버전 지정
+    nvm install 21.7.1
+    
+    # .nvmrc 파일 생성
+    echo "21.7.1" > .nvmrc  
+    ```
+    
+    </details>
 
 > 👥 **계정 정보**
 > 기존 사내데이터를 사용하는로직이므로 회원가입 기능이 없습니다. 
