@@ -46,6 +46,8 @@
 
 디케이테크인 내부의 공정하고 투명한 사내 어린이집 인원 배정을 위해 어린이집 모집과 추첨을 자동화한 서비스입니다.
 
+<br/>
+
 <details>
 
 <summary>화면 소개</summary>
@@ -71,6 +73,8 @@
 <img width="1445" alt="image" src="https://github.com/user-attachments/assets/9eae0997-088a-447a-82df-885411cf4bff">
 
 </details>
+
+<br/>
 
 
 ## 🍀핵심 기능
