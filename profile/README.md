@@ -220,9 +220,7 @@ const Pretendard = localFont({
 |관리자 신청 관리 페이지|관리자 추첨 관리 페이지|
 |<img width="600" src="https://github.com/user-attachments/assets/0b8e66af-4aca-4902-afae-c4c98eee2f06">|<img width="600" src="https://github.com/user-attachments/assets/c6dca0c7-fd80-4745-af0c-102e8a7663ef">|
 |공지사항 페이지|어린이집 정보 페이지|
-|<img width="600" alt="image" src="https://github.com/user-attachments/assets/77f02207-9ad4-444b-914a-82b7743583db">|<img width="600" alt="image" src="https://github.com/user-attachments/assets/6ac34d2d-d3e3-4427-b456-1f5368c7eb65">|
-
-
+|<img width="600" alt="image" src="https://github.com/user-attachments/assets/77f02207-9ad4-444b-914a-82b7743583db">|<img width="600" alt="image" src="https://github.com/user-attachments/assets/0113fbee-a114-4dbe-9ddd-a9cfd39839ea">|
 
 ## 🍀개발 기간
 ### 프로젝트 진행기간 : 24.07.01 ~ 08.23
