@@ -15,6 +15,9 @@
 
 [FE & BE 로컬환경 실행 방법](https://github.com/CLOVIDER/.github/blob/main/profile/INSTALL.md)
 
+### 📌배포 환경
+[KIC-쿠버네티스 환경](https://github.com/CLOVIDER/kic-k8s/blob/main/README.md)
+
 ## 목차
 
 * [프로젝트 소개](#프로젝트-소개)
