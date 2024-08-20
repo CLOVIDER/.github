@@ -95,8 +95,8 @@ echo "21.7.1" > .nvmrc
 > 아래 계정으로 테스트가 가능합니다.
 >
 >**USER**
->id : 
->pwd : 
+>id : jeri
+>pwd : 021009
 >
 > **ADMIN**
 >id : admin9
