@@ -55,35 +55,6 @@
 
 <br/>
 
-<details>
-
-<summary>화면 소개</summary>
-
-#### 메인 페이지
-
-<img width="1468" alt="image" src="https://github.com/user-attachments/assets/7849ed7a-5510-4e88-8a22-64e228138465">
-
-#### 어린이집 신청 페이지
-
-<img width="1445" alt="image" src="https://github.com/user-attachments/assets/542f5d50-c66f-471c-bd1f-8c70f1fb345c">
-
-#### 공지사항 페이지
-
-<img width="1455" alt="image" src="https://github.com/user-attachments/assets/c556aa94-db8b-4a62-85a7-cddb46cf74c8">
-
-#### 어린이집 페이지
-
-<img width="1449" alt="image" src="https://github.com/user-attachments/assets/6ac34d2d-d3e3-4427-b456-1f5368c7eb65">
-
-#### 관리자 랜딩 페이지
-
-<img width="1445" alt="image" src="https://github.com/user-attachments/assets/9eae0997-088a-447a-82df-885411cf4bff">
-
-</details>
-
-<br/>
-
-
 ## 🍀핵심 기능
 
 ### ⭐ 사용자
@@ -199,9 +170,6 @@ const Pretendard = localFont({
   const deferredSearchInput = useDeferredValue(searchInput)
 ```
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/db3821f4-0649-40b3-bc5c-7fae2c23c5a4">
-
-
 ### 🌑 Backend
 
 #### 1. 컴포넌트 단위 API 개발을 통한 `페이지 약 2.3배 최적화`
@@ -239,7 +207,22 @@ const Pretendard = localFont({
 
 ## 🍀화면 구성
 
-<!-- TODO: 화면 구성도 추가-->
+
+|사용자 랜딩 페이지|관리자 대시보드|
+|---|---|
+|<img width="600" alt="image" src="https://github.com/user-attachments/assets/efbab835-69a4-4e75-87df-e8c98b877d47">|<img width="600" alt="image" src="https://github.com/user-attachments/assets/9eae0997-088a-447a-82df-885411cf4bff">|
+|어린이집 모집 신청 페이지 1|어린이집 모집 신청 페이지 2|
+|<img width="600" src="https://github.com/user-attachments/assets/84b7d472-3068-4191-a9fc-b275ae3d74d3">|<img width="600" alt="image" src="https://github.com/user-attachments/assets/9ca82881-82ea-4c98-bcd7-a450e76ad46f">|
+|모집 신청 내역 페이지|모집 당첨 확률 페이지|
+|<img width="600" src="https://github.com/user-attachments/assets/04af4bcf-d647-45d8-aed7-fb334ae68913">|<img width="600" src="https://github.com/user-attachments/assets/b9457fe0-a04a-4b13-bce8-154a5347c9e1">|
+|관리자 모집 설정 페이지 1|관리자 모집 설정 페이지 2|
+|<img width="600" src="https://github.com/user-attachments/assets/f3093571-1155-41a3-bbfe-075555332f64">|<img width="600" src="https://github.com/user-attachments/assets/c6464963-f3ca-4a08-b672-f69493840b00">|
+|관리자 신청 관리 페이지|관리자 추첨 관리 페이지|
+|<img width="600" src="https://github.com/user-attachments/assets/0b8e66af-4aca-4902-afae-c4c98eee2f06">|<img width="600" src="https://github.com/user-attachments/assets/c6dca0c7-fd80-4745-af0c-102e8a7663ef">|
+|공지사항 페이지|어린이집 정보 페이지|
+|<img width="600" alt="image" src="https://github.com/user-attachments/assets/77f02207-9ad4-444b-914a-82b7743583db">|<img width="600" alt="image" src="https://github.com/user-attachments/assets/6ac34d2d-d3e3-4427-b456-1f5368c7eb65">|
+
+
 
 ## 🍀개발 기간
 ### 프로젝트 진행기간 : 24.07.01 ~ 08.23
