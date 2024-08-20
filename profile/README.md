@@ -3,6 +3,7 @@
 <img width="650" src="https://github.com/user-attachments/assets/39fd046f-86a1-489b-95be-17ea968277b6"/>
 
 > ### WEB URL: [키즈인컴퍼니 사이트](http://kidsincompany.shop/)
+> ### [데모 영상](https://www.youtube.com/watch?v=2VDcmHRQTiI&feature=youtu.be)
 > ### [FE Project](https://github.com/CLOVIDER/FE) </br>
 > ### [BE Project](https://github.com/CLOVIDER/BE)
 > 
@@ -12,7 +13,6 @@
 
 
 ### 📌실행 방법(로컬)
-
 [FE & BE 로컬환경 실행 방법](https://github.com/CLOVIDER/.github/blob/main/profile/INSTALL.md)
 
 ### 📌배포 환경
